@@ -1,9 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>ChristmasTree</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Ben Schneider</Authors>
+		<Company>Ben Schneider</Company>
+		<Description>A Wide Range C# Utility Library</Description>
 
+		<PackageProjectUrl>https://github.com/Ben-Scr/ChristmasTree</PackageProjectUrl>
+		<RepositoryUrl>https://ko-fi.com/benscr</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<PackageTags>
+			Christmas; Tree;
+		</PackageTags>
+
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../README.md" Pack="true" PackagePath="\" />
+		<None Include="../LICENSE.txt" Pack="true" PackagePath="\" />
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
 </Project>
