@@ -5,13 +5,14 @@
 		<Version>1.0.0</Version>
 		<Authors>Ben Schneider</Authors>
 		<Company>Ben Schneider</Company>
-		<Description>A Wide Range C# Utility Library</Description>
+		<Description>Shining Console Christmas Tree C#</Description>
 
 		<PackageProjectUrl>https://github.com/Ben-Scr/ChristmasTree</PackageProjectUrl>
 		<RepositoryUrl>https://ko-fi.com/benscr</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 
 		<PackageTags>
+			C#; 
 			Christmas; Tree;
 		</PackageTags>
 
